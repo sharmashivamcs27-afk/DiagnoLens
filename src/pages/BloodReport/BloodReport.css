@@ -1,0 +1,88 @@
+.ocr-wrapper {
+  padding: 60px 20px;
+  background-color: #F0F4F8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ocr-inner-container {
+  text-align: center;
+  max-width: 600px;
+}
+
+.section-heading1 {
+  font-size: 2.5rem;
+  color: #3A98B9;
+  margin-bottom: 15px;
+}
+
+.section-subtitle1 {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.scan-card1 {
+  background: white;
+  padding: 50px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.scan-card1 .scan-icon {
+  font-size: 5rem;
+  color: #E63946;
+  margin-bottom: 20px;
+}
+
+.scan-card1 h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.scan-card1 p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #e3f2fd;
+  border: 2px dashed #3A98B9;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #d0e8f8;
+}
+
+.file-name {
+  color: #3A98B9;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.scan-upload-btn {
+  background-color: #3A98B9;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.scan-upload-btn:hover {
+  background-color: #2a7a99;
+}
